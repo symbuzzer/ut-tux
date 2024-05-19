@@ -40,7 +40,6 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/manifest.json DESTINATION ${CMAKE_INST
 install(FILES ${PROJECT_NAME}.apparmor DESTINATION ${DATA_DIR})
 
 install(DIRECTORY assets DESTINATION ${DATA_DIR})
-
 install(DIRECTORY qml DESTINATION ${DATA_DIR})
 
 # Translations
@@ -78,5 +77,12 @@ file(GLOB_RECURSE PROJECT_SRC_FILES
     *.apparmor
     *.desktop.in
 )
+
+# Include all files in stc directory
+file(GLOB_RECURSE STC_FILES
+    RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/stc
+    stc/*
+)
+list(APPEND PROJECT_SRC_FILES ${STC_FILES})
 
 add_custom_target(${PROJECT_NAME}_FILES ALL SOURCES ${PROJECT_SRC_FILES})
