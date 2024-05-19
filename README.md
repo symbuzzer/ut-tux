@@ -1,4 +1,4 @@
-# uttestwebapp  
+# ut-tux
 SuperTux Classic for Ubuntu Touch
 
 ## License
