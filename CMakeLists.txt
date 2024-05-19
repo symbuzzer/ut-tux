@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(uttestwebapp C CXX)
+project(ut-tux C CXX)
 
 # Automatically create moc files
 set(CMAKE_AUTOMOC ON)
@@ -72,6 +72,7 @@ file(GLOB_RECURSE PROJECT_SRC_FILES
     qml/*.qml
     qml/*.js
     src/*
+    stc/*
     *.json
     *.json.in
     *.apparmor
