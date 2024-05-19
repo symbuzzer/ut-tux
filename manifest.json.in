@@ -1,15 +1,15 @@
 {
-    "name": "uttestwebapp.symbuzzer",
-    "description": "Simple test web app for Ubuntu Touch",
+    "name": "ut-tux.symbuzzer",
+    "description": "SuperTux Classic for Ubuntu Touch",
     "architecture": "@CLICK_ARCH@",
-    "title": "uttestwebapp",
+    "title": "ut-tux",
     "hooks": {
-        "uttestwebapp": {
-            "apparmor": "uttestwebapp.apparmor",
-            "desktop":  "uttestwebapp.desktop"
+        "ut-tux": {
+            "apparmor": "ut-tux.apparmor",
+            "desktop":  "ut-tux.desktop"
         }
     },
-    "version": "1.0.5",
+    "version": "1.0.0",
     "maintainer": "Ali BEYAZ <alipolatbeyaz@gmail.com>",
     "framework" : "@CLICK_FRAMEWORK@"
 }
