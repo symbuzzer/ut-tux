@@ -1,9 +1,9 @@
 [Desktop Entry]
-_Name=uttestwebapp
+_Name=ut-tux
 Exec=qmlscene %U qml/Main.qml
 Icon=assets/logo.png
 Terminal=false
 Type=Application
 X-Lomiri-Touch=true
 X-Lomiri-Splash-Color=#404040
-X-Ubuntu-Supported-Orientations=portrait
+X-Ubuntu-Supported-Orientations=landscape
