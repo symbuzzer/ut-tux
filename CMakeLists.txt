@@ -11,8 +11,8 @@ execute_process(
 )
 set(QT_IMPORTS_DIR "lib/${ARCH_TRIPLET}")
 
-set(PROJECT_NAME "uttestwebapp")
-set(FULL_PROJECT_NAME "uttestwebapp.symbuzzer")
+set(PROJECT_NAME "ut-tux")
+set(FULL_PROJECT_NAME "ut-tux.symbuzzer")
 set(DATA_DIR /)
 set(DESKTOP_FILE_NAME ${PROJECT_NAME}.desktop)
 
