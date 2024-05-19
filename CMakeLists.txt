@@ -71,7 +71,6 @@ file(GLOB_RECURSE PROJECT_SRC_FILES
     qml/*.qml
     qml/*.js
     src/*
-    stc/*
     *.json
     *.json.in
     *.apparmor
@@ -80,7 +79,7 @@ file(GLOB_RECURSE PROJECT_SRC_FILES
 
 # Include all files in stc directory
 file(GLOB_RECURSE STC_FILES
-    RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/stc
+    RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
     stc/*
 )
 list(APPEND PROJECT_SRC_FILES ${STC_FILES})
