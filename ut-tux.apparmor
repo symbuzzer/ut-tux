@@ -1,7 +1,6 @@
 {
     "policy_groups": [
         "webview",
-        "networking",
         "audio",
         "video",
         "keep-display-on"
